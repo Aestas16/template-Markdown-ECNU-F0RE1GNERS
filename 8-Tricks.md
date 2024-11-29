@@ -2,8 +2,8 @@
 
 1. 骨牌覆盖类问题优先考虑黑白染色。黑白染色完应当考虑一个强结论：黑白数量相同的图可以被完美覆盖。Source：CF1268B。
 2. 满足 $\sum a \le k$ 的序列 $\langle a_1,a_2,\dots,a_t\rangle$ 的 $k + 1 - \sum a$ 之和就等价于：  
-   ● 满足 $x + \sum a \le k + 1$ 的正整数序列 $\langle x,a_1,a_2,\dots,a_t\rangle$ 的数量，又等价于：
-      ● 满足 $x + y + \sum a = k + 2$ 的正整数序列 $\langle x,y,a_1,a_2,\dots,a_t\rangle$ 的数量。隔板法得到答案为 $\displaystyle\binom{k+1}{t+1}$。
+   - 满足 $x + \sum a \le k + 1$ 的正整数序列 $\langle x,a_1,a_2,\dots,a_t\rangle$ 的数量，又等价于：
+      - 满足 $x + y + \sum a = k + 2$ 的正整数序列 $\langle x,y,a_1,a_2,\dots,a_t\rangle$ 的数量。隔板法得到答案为 $\displaystyle\binom{k+1}{t+1}$。
 
    Source：ARC144D。
 3. 图的最大匹配唯一等价于最大匹配就是完美匹配。Source：CF1032F。
