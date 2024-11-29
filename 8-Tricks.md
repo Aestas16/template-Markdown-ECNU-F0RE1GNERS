@@ -28,7 +28,7 @@
 13. $\displaystyle\binom{i}{j} \equiv 1 \pmod{2}$ 当且仅当 $i \operatorname{and} j = j$，其中 $\operatorname{and}$ 为按位与运算。Source：CF1713F。
 14. 对长度非 $2^k$ 的序列做 FWT 时，可以不用将 $n$ 补齐至 $2^k$，而是在 FWT 的循环条件中判断当前访问位置是否超界，可以证明这样做 FWT 仍然是正确的。
     
-    ```
+    ```cpp
     void OR(int *f) {
         for (int o = 2, k = 1; o <= m; o <<= 1, k <<= 1)
             for (int i = 0; i < m; i += o)
